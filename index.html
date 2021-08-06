@@ -1,0 +1,55 @@
+---
+layout: base
+---
+
+{% for post in paginator.posts %}
+<h1>111</h1>
+<div class="post">
+
+    <h2 class="post-title">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.title %}
+            {{ post.title }}
+            {% else %}
+            {{ site.page_no_title }}
+            {% endif %}
+        </a>
+    </h2>
+
+    <div class="post-meta">
+        <span>
+            <i class="icon-post-date"> {{ post.date | date: "%Y年%m月%d日" }}
+
+            </i>
+            <!-- 显示每篇博客阅读量, id 将作为查询条件 -->
+            <span id={{post.url}} class="leancloud-visitors" data-flag-title={{post.title}}>
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-text">阅读量 </span>
+                <span class="leancloud-visitors-count"></span>
+            </span>
+            <!-- &#x1F601 -->
+        </span>
+
+    </div>
+
+    <div class="post-content">{{ post.excerpt }}</div>
+
+    <p class="readmore"><a href="{{ post.url | prepend: site.baseurl }}">阅读更多</a></p>
+
+</div>
+{% endfor %}
+
+
+<div class="page-navigator">
+    {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+    <a href="/" class="previous">上一页</a>
+    {% else %}
+    <a href="/page{{ paginator.previous_page }}/" class="previous">上一页</a>
+    {% endif %}
+    {% endif %}
+    <span class="page-number">第 {{ paginator.page }}/{{ paginator.total_pages }} 页</span>
+    {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/" class="next">下一页</a>
+    {% endif %}
+</div>

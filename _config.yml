@@ -1,0 +1,62 @@
+# Site settings
+title: 博客标题
+subtitle: 博客副标题
+description: 博客描述
+baseurl: "" # 根
+url: "http://yourdomain.com" # 你的网址
+domain: "yourdomain.com" # 你的域名
+page_no_title: "No title" # 文章无标题时默认显示内容
+beian: # "备案号"
+email: email@yourdomain.com
+
+# Build settings
+markdown: kramdown
+
+# 永久链接，定制文章链接风格
+permalink: /:year/:month/:day/:title
+
+plugins: 
+  - jekyll-paginate
+
+
+# Pageinate settings  
+paginate: 5  # 分页大小
+paginate_path: "page:num"
+
+
+
+
+# Search settings
+baidu_search: true
+google_search: # true
+
+
+# Menu settings
+menu:
+  - page: 首页
+    directory: .
+    icon: icon-home
+  - page: 归档
+    directory: archives/
+    icon: icon-archive
+  - page: 标签
+    directory: tags/
+    icon: icon-tags
+  - page: 留言
+    directory: guestbook/
+    icon: icon-guestbook
+  - page: 关于  
+    directory: about/
+    icon: icon-about
+  - page: 订阅
+    directory: feed.xml
+    icon: icon-rss
+
+# Link settings
+links: # 友情链接
+  - title: site-name1
+    url: http://www.example1.com/
+  - title: site-name2
+    url: http://www.example2.com/
+  - title: site-name3
+    url: http://www.example3.com/
