@@ -1,7 +1,7 @@
 # Site settings
 title: 熊猫小筑
-subtitle: 磊的
-description: 博客描述
+subtitle: 磊的部落格
+description: 磊的部落格
 baseurl: "" # 根
 url: "https://tristone.live" # 你的网址
 domain: "tristone.live" # 你的域名
