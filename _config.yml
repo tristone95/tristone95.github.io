@@ -1,10 +1,10 @@
 # Site settings
 title: 熊猫小筑
-subtitle: 博客副标题
+subtitle: 磊的
 description: 博客描述
 baseurl: "" # 根
-url: "http://yourdomain.com" # 你的网址
-domain: "yourdomain.com" # 你的域名
+url: "https://tristone.live" # 你的网址
+domain: "tristone.live" # 你的域名
 page_no_title: "No title" # 文章无标题时默认显示内容
 beian: # "备案号"
 email: email@yourdomain.com
@@ -18,19 +18,14 @@ permalink: /:year/:month/:day/:title
 plugins: 
   - jekyll-paginate
 
-excerpt_separator: ""
-
 # Pageinate settings  
 paginate: 5  # 分页大小
 paginate_path: "page:num"
 
 
-
-
 # Search settings
 baidu_search: true
 google_search: # true
-
 
 # Menu settings
 menu:

@@ -35,7 +35,13 @@
         <div id="header">
             <div class="site-name">
                 <h1 class="hidden">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                <a id="logo" href="/.">{{ site.title }}</a>
+                <div style="line-height:normal">
+                    <img src="/assets/images/Logo.png" class="nofancybox" width="60px">
+                    <div
+                        style="background-image: url('/assets/images/bg.png');background-size: 100% 100%;display: inline-block;vertical-align:top;position: relative;height: 60px;border-bottom: 0px solid red;">
+                        <a id="logo" href="/." style="position: relative;top: 20px;">{{ site.title }}</a>
+                    </div>
+                </div>
                 <p class="description">{{ site.subtitle }}</p>
             </div>
             <div id="nav-menu">
@@ -73,8 +79,6 @@
                     {% include widgets/search_box_insite.html %}
 
                     {% include widgets/category_list.html %}
-
-                    {% include widgets/tag_cloud %}
 
                     {% include widgets/new_post_list.html %}
                 </div>
