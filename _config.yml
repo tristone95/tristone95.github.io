@@ -19,7 +19,7 @@ plugins:
   - jekyll-paginate
 
 # Pageinate settings  
-paginate: 5  # 分页大小
+paginate: 1  # 分页大小
 paginate_path: "page:num"
 
 
