@@ -5,7 +5,7 @@ date:   2021-08-05 15:43:19 +0800
 categories: 杂记
 tags: Jekyll Debug 
 ---
-> 本文仅记录了搭建后遇到的一个 bug ，Jekyll搭建过程可见另一篇博文[留坑，github 博客搭建]()。bug 原因是 Jekyll 版本不一致，原主题 [maupassant](https://github.com/imkarl/maupassant-jekyll) 版本 Jekyll 低于 3.0，而博主 Jekyll 版本为 4.0.2。
+本文仅记录了搭建后遇到的一个 bug ，Jekyll搭建过程可见另一篇博文[留坑，github 博客搭建]()。bug 原因是 Jekyll 版本不一致，原主题 [maupassant](https://github.com/imkarl/maupassant-jekyll) 版本 Jekyll 低于 3.0，而博主 Jekyll 版本为 4.0.2。
 https://jekyllrb.com/docs/variables/#paginator
 
 ## 搭建即遭遇bug
