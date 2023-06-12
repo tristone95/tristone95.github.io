@@ -44,5 +44,5 @@ excerpt_separator: <!--more-->
   ![PDF查看](https://cdn.jsdelivr.net/gh/tristone95/imgs/2023/sys_7.png)
 - 点击重新检测将初始化数据，跳转开始任务界面准备开始新任务。
 #### 项目源码及release
-[GitHub仓库：https://github.com/tristone95/sysproject](https://github.com/tristone95/sysproject "Github仓库")
-[GiTee&ensp;仓库：https://gitee.com/XRay1995/sysproject](https://gitee.com/XRay1995/sysproject "Github仓库")
+- [GitHub仓库：https://github.com/tristone95/sysproject](https://github.com/tristone95/sysproject?_blank "Github仓库")
+- [GiTee&ensp;仓库：https://gitee.com/XRay1995/sysproject](https://gitee.com/XRay1995/sysproject?_blank "Github仓库")
