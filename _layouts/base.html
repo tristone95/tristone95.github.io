@@ -11,7 +11,7 @@
     <title>{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <meta name="description"
-        content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
