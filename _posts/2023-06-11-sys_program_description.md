@@ -22,7 +22,6 @@ tags: SysProgram ProgramDescription
 #### 项目介绍
 本项目设计为C/S架构，更多的是出于开发实战，实现基于tcp的通信与协议设计，通过Tcp通信的自定义协议实现客户端对服务器端的控制消息以及处理结果的传递。此外用到了多线程技术、基于OpenCV库的图像处理，实现了基于pdfium的PDF查看器、实现了分页查看。
 #### 项目展示
-<iframe src="//player.bilibili.com/player.html?bvid=BV1Qc411u7gB&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 (PS：无UI设计故未处理UI,界面较丑勿怪)
 #### 部分功能介绍
